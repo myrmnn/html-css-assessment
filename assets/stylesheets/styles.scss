@@ -80,7 +80,7 @@ h1 {
 		align-items: center;
 		justify-content: center;
 		margin: 0 auto;
-		transform: translateX(-65px);
+		transform: translateX(-20px);
 	}
 	&__title {
 		font-size: 20px;
@@ -124,7 +124,7 @@ h1 {
 
 		@media screen and (min-width: $tablet) {
 			display: inline-block;
-			width: 125px;
+			width: 200px;
 			margin-left: 1em;
 		}
 	}
