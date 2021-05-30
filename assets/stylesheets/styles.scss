@@ -16,6 +16,7 @@ body,
 h1 {
 	font-size: 16px;
 	font-family: $fontCabin;
+	color: $darkBlue;
 }
 .line {
 	border-top: 2px solid $darkBlue;
@@ -40,7 +41,7 @@ h1 {
 
 .navbar {
 	list-style: none;
-	text-decoration-color: $darkBlue;
+	// text-decoration-color: $darkBlue;
 	text-align: center;
 	display: flex;
 	justify-content: space-evenly;
@@ -59,6 +60,8 @@ h1 {
 	& a {
 		color: $darkBlue;
 		font-weight: 700;
+		text-decoration-color: lighten($color: #0a162b, $amount: 30%);
+		// text-decoration: wavy;
 	}
 
 	& li {
